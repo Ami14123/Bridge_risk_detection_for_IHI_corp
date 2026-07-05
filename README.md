@@ -4,7 +4,11 @@ Machine learning prototype for **bridge deterioration risk prioritization**, dev
 
 The goal is to help analysts and engineers screen bridge inspection records faster and create a **priority list for review**.
 
-> This project supports early screening only. It does not replace certified bridge inspection or engineering judgement.
+> This project is a prototype only<
+<img width="640" height="427" alt="image0 (24)" src="https://github.com/user-attachments/assets/f61c6b95-d0f9-43f0-a2f8-d081bb822627" />
+
+<img width="640" height="427" alt="image1 (7)" src="https://github.com/user-attachments/assets/07433a00-5019-45b5-899c-0f789cfa4c81" />
+
 
 ---
 

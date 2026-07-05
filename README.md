@@ -155,6 +155,42 @@ streamlit run app.py
 | `models/` | Saved trained model |
 
 ---
+---
+### Source code:
+## Function Flow Diagram
+
+```mermaid
+flowchart TD
+    A[main] --> B[run_pipeline]
+
+    B --> C[project_root]
+    B --> D[load_raw_frames]
+    D --> E[read_nbi_file]
+
+    B --> F[build_transition_dataset]
+    F --> G[make_transition]
+    G --> H[clean_current_year]
+    H --> I[nbi_coordinate_to_decimal]
+
+    B --> J[train_and_evaluate]
+    J --> K[split_temporally]
+    J --> L[make_models]
+    L --> M[make_preprocessor]
+    J --> N[evaluate_probability]
+    J --> O[choose_threshold]
+    J --> P[top_k_metrics]
+
+    B --> Q[create_priority_list]
+    Q --> H
+
+    B --> R[save_outputs]
+    R --> S[save_feature_importance]
+
+    B --> T[Saved outputs]
+```
+
+
+---
 
 ## Limitation
 

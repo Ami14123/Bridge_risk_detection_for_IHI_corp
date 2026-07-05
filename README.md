@@ -2,7 +2,63 @@
 
 ## 1. Project summary
 
-This project is a machine learning prototype for **bridge deterioration risk prioritization**. It uses California bridge inspection records from the National Bridge Inventory to predict whether a bridge's reported `LOWEST_RATING` is likely to decrease in the next annual data release.
+This project is a machine learning # Bridge Risk Intelligence Prototype
+
+Prototype phân tích và dự đoán rủi ro xuống cấp cầu (bridge deterioration risk), được xây dựng trong khuôn khổ Career Experience Practicum với **IHI**. Notebook chính: `01_bridge_risk_prototype.ipynb`.
+
+Mục tiêu: tự động hóa bước sàng lọc dữ liệu kiểm định cầu và tạo ra danh sách ưu tiên (priority list) để kỹ sư review, thay vì phải rà soát thủ công toàn bộ dữ liệu.
+
+---
+
+## 🎓 Career Practicum
+
+| | |
+|---|---|
+| **Program** | Career Experience Practicum |
+| **Enterprise Experience** | IHI & Aster internship-based project |
+| **Role** | Data Analyst |
+| **Work** | Bridge risk analysis and business proposal development |
+| **Result** | Team ranked **3rd**, received **95/100** |
+
+**Reflection:** This experience helped me understand enterprise business problems, infrastructure risk, and data-driven proposal design.
+
+---
+
+## 📷 Project Photo
+
+<!--
+Đặt ảnh vào thư mục assets/ (ví dụ: assets/team-photo.jpg) rồi thay đường dẫn bên dưới.
+-->
+
+![Team photo — attach your photo here](./assets/team-photo.jpg)
+
+*(Thay ảnh placeholder ở trên bằng ảnh thật của team/dự án, ví dụ ảnh present hoặc ảnh nhóm.)*
+
+---
+
+## Project Structure (expected)
+
+```
+.
+├── 01_bridge_risk_prototype.ipynb   # Notebook trình bày (presentation)
+├── src/
+│   └── bridge_risk_pipeline.py      # Code chính, comment bằng tiếng Việt
+├── data/                            # Dữ liệu đầu vào (raw)
+├── outputs/                         # Priority list (kết quả)
+├── reports/                         # Thống kê target, đánh giá model
+├── models/                          # Model đã train
+└── assets/                          # Ảnh cho README (team photo, v.v.)
+```
+
+## How to Run
+
+1. Cài các thư viện cần thiết: `pandas`, `plotly`, và các thư viện dùng trong `src/bridge_risk_pipeline.py`.
+2. Mở `01_bridge_risk_prototype.ipynb` bằng Jupyter.
+3. Chạy tuần tự từ trên xuống — mỗi phần đều có **note ôn tập** (🎯 Mục tiêu / 📥 Input / 📤 Output) ngay phía trên để dễ nhớ vì sao cần bước đó.
+
+## Note
+
+Đây là công cụ hỗ trợ **ưu tiên kiểm tra**, không phải công cụ chứng nhận an toàn cầu.prototype for **bridge deterioration risk prioritization**. It uses California bridge inspection records from the National Bridge Inventory to predict whether a bridge's reported `LOWEST_RATING` is likely to decrease in the next annual data release.
 
 The output is not a structural safety decision. The model only creates a **priority list** that can help analysts and engineers decide which bridge records deserve earlier review.
 
@@ -226,11 +282,6 @@ This creates the files in `outputs/`, `reports/`, and `models/`.
 streamlit run app.py
 ```
 
-## 12. Presentation script idea
-
-I would present this project in this way:
-
-> In my Career Experience Practicum with IHI, I worked with bridge and infrastructure related business thinking. I wanted to extend that experience into a data automation prototype. This project asks how an infrastructure company could automatically screen annual bridge inspection records and create a priority list for engineer review. I used California bridge data from 2021 to 2025, created a next year deterioration target, trained machine learning models, and built a dashboard that ranks bridges by predicted risk. The model is not a safety certification tool. It is a human in the loop decision support prototype.
 
 ## 13. Safety limitation
 

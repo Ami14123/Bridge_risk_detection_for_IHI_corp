@@ -75,7 +75,7 @@ A temporal split is used because the model should be tested on future bridge rec
 | Logistic Regression | Simple baseline and explainable ranking |
 | Decision Tree | Lightweight nonlinear comparison |
 
-The best model is selected using **validation PR AUC**, because bridge deterioration is a rare event.
+The best model is selected using **validation Precision Recall AUC**, because bridge deterioration is a rare event.
 
 ---
 

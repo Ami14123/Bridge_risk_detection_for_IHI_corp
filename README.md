@@ -90,10 +90,6 @@ Logistic Regression
 | Metric | Value |
 |---|---:|
 | ROC AUC | 0.7197 |
-| PR AUC | 0.0879 |
-| Precision | 0.0900 |
-| Recall | 0.3586 |
-| F1 | 0.1438 |
 
 Interpretation: the model has useful ranking signal, but it is not strong enough for engineering decisions alone.
 

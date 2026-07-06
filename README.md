@@ -1,6 +1,6 @@
 # Bridge Risk Intelligence Prototype
 
-Machine learning prototype for **bridge deterioration risk prioritization**, developed from a Career Experience Practicum project with **IHI**.
+Machine learning prototype for **bridge deterioration risk detection**, developed from a Career Experience Practicum project with **IHI**.
 
 The goal is to help analysts and engineers screen bridge inspection records faster and create a **priority list for review**.
 
